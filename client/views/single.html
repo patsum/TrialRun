@@ -1,0 +1,8 @@
+<h1>{{post.title}}</h1>
+<h3>By {{post.authorfirstname}} {{post.authorlastname}}</h3>
+<h3>Posted In: {{post.categoryname}} ({{post.createdAt | date: "short"}})</h3>
+<hr>
+<h4>{{post.content}}</h4>
+<hr>
+<button ng-click="goToUpdate()">Edit Post</button>
+<button ng-click="deletePost()">Delete Post</button>

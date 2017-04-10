@@ -1,0 +1,9 @@
+<h1>Welcome to My Angular Blog!</h1>
+<button ng-click="goToCompose()">Compose Post</button>
+<hr>
+<div ng-repeat="post in posts">
+    <h2>{{post.title}} - {{post.authorfirstname}} {{post.authorlastname}}</h2>
+    <h4>Posted In: {{post.categoryname}} ({{post.createdAt | date: "short"}}) 
+        <a ng-href="/{{post.id}}">Read</a>
+    </h4>
+</div>

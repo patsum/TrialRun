@@ -1,0 +1,23 @@
+{
+  "name": "project2-solution",
+  "version": "1.0.0",
+  "description": "Angular Blog",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "source .variables && nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-mysql-session": "^1.2.0",
+    "express-session": "^1.15.2",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sendgrid": "^5.0.0",
+    "stripe": "^4.17.1"
+  }
+}
